@@ -1,0 +1,333 @@
+@media screen and (max-width: 1220px) {
+  nav {
+    justify-content: space-between;
+  }
+  nav .menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .icons {
+    display: none;
+  }
+  .topmenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .categories .container .cards {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .categories .container .cards .card {
+    width: 100%;
+  }
+  .categories .container .cards .card {
+    height: auto;
+  }
+  .categories .container {
+    margin: 80px auto;
+  }
+  .about .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+  }
+  .contact .container .box {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero .left_box h1 {
+    font-size: 40px;
+  }
+  .hero .left_box .email button {
+    font-size: 18px;
+  }
+  .courses .container .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .courses .container {
+    padding: 60px 0;
+  }
+  .courses .container .cards .card {
+    width: 100%;
+  }
+  .courses .container .company_logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+  .courses .container .company {
+    margin-top: 80px;
+  }
+  .contact {
+    padding: 40px 0;
+  }
+  .contact .container .box form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero .left_box .email {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .hero .left_box .email input {
+    width: 100%;
+  }
+  .categories .container {
+    margin: 60px auto;
+  }
+  .about .container {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hero .left_box h1 {
+    font-size: 30px;
+  }
+  .hero .left_box h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero .container {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+  }
+  .hero .left_box {
+    max-width: 100%;
+  }
+  .courses .container .company {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .courses .container .cards .card .card_info .review {
+    font-size: 15px;
+    gap: 20px;
+  }
+  .contact .container h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .courses .container .cards {
+    grid-template-columns: 1fr;
+  }
+  .courses .container {
+    padding: 40px 0;
+  }
+  .courses .container .cards .card {
+    width: 100%;
+  }
+  .courses .container .company_logos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  .courses .container .company h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about .container .about_img {
+    width: 450px;
+  }
+  .about .container .about_img img {
+    width: 100%;
+  }
+  .about .container .about_text h1 {
+    font-size: 40px;
+    padding-bottom: 0px;
+  }
+  .contact .container h1 {
+    font-size: 30px;
+  }
+  .contact .container form input,
+  .contact .container form textarea {
+    font-size: 18px;
+    padding: 8px;
+  }
+  .contact .container form .icons .phone,
+  .contact .container form .icons .mail {
+    font-size: 18px;
+  }
+  .contact .container form .icons i,
+  .contact .container form .links i {
+    font-size: 25px;
+  }
+  .contact {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero .right_box {
+    width: 400px;
+  }
+  .hero .right_box img {
+    width: 100%;
+  }
+  .hero .left_box h1 {
+    font-size: 25px;
+  }
+  .hero .left_box h2 {
+    font-size: 20px;
+  }
+  .hero .left_box .email input,
+  .hero .left_box .email button,
+  .contact .container form button {
+    font-size: 18px;
+    padding: 8px;
+  }
+  .categories .container .cards {
+    grid-template-columns: 1fr;
+  }
+  .categories .container .cards .card {
+    width: 80%;
+  }
+  .categories .container {
+    margin: 50px auto;
+  }
+  .about .container {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero .right_box {
+    width: 300px;
+  }
+  .hero .right_box img {
+    width: 100%;
+  }
+  .hero .left_box .email input,
+  .hero .left_box .email button,
+  .contact .container form button {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .categories .container .cards .card {
+    height: auto;
+  }
+  .categories .container .cards .card .card_icon {
+    width: 100px;
+    height: 100px;
+  }
+  .categories .container .cards .card .card_text h2 {
+    padding: 15px 0px;
+    font-size: 20px;
+  }
+  .courses .container .company_logos {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+  .container {
+    padding: 40px 0;
+  }
+  .about .container {
+    gap: 15px;
+  }
+  .about .container .about_img {
+    width: 350px;
+  }
+  .about .container .about_img img {
+    width: 100%;
+  }
+  .about .container .about_text h1 {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  .about .container .about_text h2 {
+    font-size: 20px;
+  }
+  .about .container .about_text p,
+  .about .container .about_text button,
+  .categories .container button,
+  .courses .container button {
+    font-size: 15px;
+  }
+  .about .container .about_text {
+    gap: 10px;
+  }
+  .contact {
+    padding: 0px 0;
+  }
+  .contact .container {
+    padding: 15px 0;
+  }
+  .contact .container form input,
+  .contact .container form textarea {
+    font-size: 15px;
+    padding: 5px;
+  }
+  .contact .container .copyright h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about .container {
+    gap: 10px;
+  }
+  .about .container .about_img {
+    width: 230px;
+  }
+  .about .container .about_img img {
+    width: 100%;
+  }
+  .about .container .about_text h1 {
+    font-size: 25px;
+    padding-bottom: 0px;
+  }
+  .about .container .about_text h2 {
+    font-size: 18px;
+  }
+  .about .container .about_text p,
+  .about .container .about_text button,
+  .categories .container button,
+  .courses .container button,
+  .contact .container form button {
+    font-size: 12px;
+  }
+  .about .container .about_text {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero .right_box {
+    width: 220px;
+  }
+  .hero .right_box img {
+    width: 100%;
+  }
+  .courses .container .cards .card .card_info .review {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .courses .container .cards .card {
+    height: auto;
+  }
+}
